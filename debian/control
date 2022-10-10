@@ -1,0 +1,28 @@
+Source: libencode-eucjpms-perl
+Section: perl
+Priority: optional
+Maintainer: Taku YASUI <tach@debian.org>
+Build-Depends: debhelper (>= 7), perl
+Standards-Version: 3.9.3
+Homepage: http://search.cpan.org/dist/Encode-EUCJPMS/
+Vcs-Svn: svn://svn.debian.org/svn/collab-maint/deb-maint/libencode-eucjpms-perl
+Vcs-Browser: http://anonscm.debian.org/viewvc/collab-maint/deb-maint/libencode-eucjpms-perl
+
+Package: libencode-eucjpms-perl
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends},
+ perl
+Description: Perl library for Microsoft Compatible Japanese Encodings
+ This module implements Microsoft compatible encodings for Japanese.
+ Encodings supported are as follows.
+ .
+ Canonical     Alias                                      Description
+ --------------------------------------------------------------------
+ eucJP-ms      qr/\beuc-?jp-?ms$/i                           eucJP-ms
+               qr/\beuc-?jp-?win$/i
+ cp51932       qr/\bcp51932$/i                 Windows Codepage 51932
+ cp50220                                       Windows Codepage 50220
+ cp50221                                       Windows Codepage 50221
+ --------------------------------------------------------------------
+ .
+ To find out how to use this module in detail, see Encode.

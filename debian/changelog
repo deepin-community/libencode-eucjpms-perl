@@ -1,0 +1,18 @@
+libencode-eucjpms-perl (0.07-3) unstable; urgency=low
+
+  * Change source package format to 3.0 (quilt)
+
+ -- Taku YASUI <tach@debian.org>  Sun, 01 Apr 2012 02:28:58 +0900
+
+libencode-eucjpms-perl (0.07-2) unstable; urgency=low
+
+  * Bump Standards-Version to 3.9.3
+  * Update metadata on debian/control
+
+ -- Taku YASUI <tach@debian.org>  Tue, 27 Mar 2012 00:20:03 +0900
+
+libencode-eucjpms-perl (0.07-1) unstable; urgency=low
+
+  * Initial Release (closes: #639431)
+
+ -- Taku YASUI <tach@debian.org>  Sat, 10 Sep 2011 23:42:46 +0900
